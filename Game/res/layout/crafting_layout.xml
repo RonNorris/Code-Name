@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/craft_item_detail_container"
+        android:layout_width="match_parent"
+        android:layout_height="83dp" >
+
+        <ImageView
+            android:id="@+id/craft_item_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="23dp" />
+
+        <TextView
+            android:id="@+id/craft_item_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/craft_item_image"
+            android:layout_marginLeft="24dp"
+            android:layout_toRightOf="@+id/craft_item_image"
+            android:text=" "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/craft_item_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/craft_item_image"
+            android:layout_alignLeft="@+id/craft_item_description"
+            android:text=" "
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/craft_item_craft_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/craft_item_description"
+            android:layout_marginRight="16dp"
+            android:text="Craft" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp" >
+
+        <ListView
+            android:id="@+id/craft_item_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_margin="10dp">
+
+        </ListView>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">Dig Game</string>
+    
+    <string name="splash_image_content_description">Splash screen image</string>
+    
+    <!-- Activity labels -->
+    <string name="splash_screen_label">Dig Game</string>
+    <string name="craft_label">CraftActivity</string>
+    <string name="game_label">GameActivity</string>
+	<string name="help_label">HelpActivity</string>
+	<string name="main_menu_label">MainMenuActivity</string>
+	<string name="options_label">OptionsActivity</string>
+	
+	<!-- Main menu text -->
+	<string name="main_menu_start_text">Start Game</string>
+	<string name="main_menu_help_text">Help</string>
+	<string name="main_menu_options_text">Options</string>
+	
+	<!-- Content descriptions -->
+	<string name="inventory_item_image_description">Image of the item</string>
+	<string name="craft_item_image_description">Image of the item</string>
+	
+	<!-- Button text -->
+	<string name="craft_item_craft_button_text">Craft!</string>
+	<string name="new_game_button_text">New Game</string>
+	<string name="leaderboard_button_text">Leaderboards</string>
+	<string name="sound_fx_slider_text">Sound Fx</string>
+	<string name="music_volume_slider_text">Music</string>
+	
+</resources>
