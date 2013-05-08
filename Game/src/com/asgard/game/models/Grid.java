@@ -9,7 +9,17 @@ public class Grid {
 	/* Number of layers */
 	public static final int NUM_PLANES = 100;
 
-	/* The array of blocks that this grid represents */
+	/* The array of blocks that this grid represents 
+	 * 						|
+	 * 						|
+	 * 			North		|
+	 * 						|		East
+	 * ---------------------|
+	 * 					| >	|
+	 * 					|---------------------
+	 * 			West	|
+	 * 					|		South
+	 * 					|							*/
 	protected Block[][] mBlocks;
 	/* The plane which this grid represents */
 	protected int mPlane;
